@@ -6,6 +6,12 @@ div {
   box-sizing: border-box;
 }
 
+.title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .list {
   padding-left: 20px;
   text-align: left;
