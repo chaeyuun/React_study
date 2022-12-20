@@ -49,13 +49,13 @@ function App() {
             <div className="list" key={i}>
               <h4 onClick={() =>{setModal(modal+1);
               cgtitle(i);
-              }}>{a}  
+              }}>{a}  </h4>
               <span onClick={(e) =>{
                 e.stopPropagation();
                 let copy = [...따봉];
                 copy[i] = copy[i] + 1;
                 따봉변경(copy)}}>
-                ❤️</span> {따봉[i]}</h4>
+                ❤️</span> {따봉[i]}
               <p>{dateStr}<button onClick={()=>{let copy = [...글제목]; copy.splice(i, 1); 제목변경(copy);}}>삭제</button></p>
             </div>
           )
