@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
-
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 function App() {
   const date = new Date();
@@ -19,6 +19,23 @@ function App() {
 
   return (
     <div className="App">
+      {/* <Link to="/">
+        <button>홈</button>
+      </Link>
+      <Link to="/detail">
+        <button>디테일</button>
+      </Link>
+      <Link to="/about">
+        <button>어바웃</button>
+      </Link> */}
+
+      {/* <BrowserRouter>
+        <Routes>
+          <Route path="/detail" element={<div>상세페이지</div>}/>
+          <Route path="/about" element={<div>어바웃페이지</div>}/>
+        </Routes>
+      </BrowserRouter> */}
+
       <div className="black-nav">
         <h4>ReactBlog</h4>
         
@@ -100,7 +117,7 @@ function Modal(props){
         props.글제목변경(copy);
         }}>글수정</button>
       </div>
-  )
+  )i
 }
 
 export default App;
