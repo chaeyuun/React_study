@@ -117,7 +117,7 @@ function Modal(props){
         props.글제목변경(copy);
         }}>글수정</button>
       </div>
-  )i
+  )
 }
 
 export default App;
