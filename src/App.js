@@ -37,7 +37,7 @@ function App() {
       </BrowserRouter> */}
 
       <div className="black-nav">
-        <h4>ReactBlog</h4>
+        <h4>Chaeyoon's Blog</h4>
         
       </div>
       {/* <button onClick = {()=>{
