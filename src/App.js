@@ -76,7 +76,7 @@ function App() {
               <p>{dateStr}<button onClick={()=>{let copy = [...글제목]; copy.splice(i, 1); 제목변경(copy);}}>삭제</button></p>
             </div>
           )
-        })
+        })?
       }
 
       <input 
