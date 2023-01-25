@@ -76,7 +76,7 @@ function App() {
               <p>{dateStr}<button onClick={()=>{let copy = [...글제목]; copy.splice(i, 1); 제목변경(copy);}}>삭제</button></p>
             </div>
           )
-        })???
+        })
       }
 
       <input 
@@ -115,7 +115,7 @@ function Modal(props){
         let copy = [...props.글제목];
         copy[0] = '여자 코트 추천';
         props.글제목변경(copy);
-        }}>글수정</button>
+        }}>수정</button>
       </div>
   )
 }
