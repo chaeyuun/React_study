@@ -79,7 +79,7 @@ function App() {
         })
       }
 
-      <input 
+      {/* <input 
       onChange={(e)=>{
         if ((e.target.value).length >= 1){
           입력값변경(e.target.value);
@@ -90,7 +90,7 @@ function App() {
           let copy따봉 = [...따봉]; copy따봉.unshift(0); 따봉변경(copy따봉);
         }
       }}
-      /> 
+      />  */}
       <button
       onClick={()=>{
         let copy = [...글제목]; copy.unshift(입력값); 제목변경(copy);
