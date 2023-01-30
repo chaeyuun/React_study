@@ -111,7 +111,7 @@ function Modal(props){
         <p>상세내용</p>
         <button onClick={()=>{
         let copy = [...props.글제목];
-        copy[0] = '여자 코트 추천';
+        // copy[0] = '여자 코트 추천'; 깃허브 잔디심기용임 주석 풀어야함
         props.글제목변경(copy);
         }}>수정</button>
       </div>
